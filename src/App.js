@@ -1,6 +1,6 @@
 import "./App.css";
 import { Component } from "react";
-import { getPeriodicTable, loadPOsts } from "./utils/load-Posts";
+import { getPeriodicTable } from "./utils/load-Posts";
 import { Atom } from "./componnets/PostCard";
 
 class App extends Component {
