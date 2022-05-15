@@ -1,0 +1,23 @@
+.container {
+  padding: 20px;
+  background-color: #369457;
+}
+.posts {
+  display: grid;
+  gap: 40px;
+  grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.atom {
+  background: #fff;
+  box-shadow: 0 0 10px rgba(0.1);
+  transition: transform 100ms ease-in-out;
+  width: 8.33%;
+}
+
+.post:hover {
+  transform: scale(1.05);
+}
+.post-content {
+  padding: 30px;
+}
